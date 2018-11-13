@@ -1,0 +1,5 @@
+############Algumas funções importantes
+
+# Coloca as 30 features num NumPy array X os label num array y
+X = merge.iloc[:, 1:76].values
+y = merge['stars'].values
